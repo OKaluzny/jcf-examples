@@ -1,4 +1,4 @@
-package com.queue;
+package com.jcf.queue;
 
 interface MyQueue<T> {
 

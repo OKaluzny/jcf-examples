@@ -1,4 +1,4 @@
-package com.queue;
+package com.jcf.queue;
 
 import java.util.Comparator;
 import java.util.LinkedList;

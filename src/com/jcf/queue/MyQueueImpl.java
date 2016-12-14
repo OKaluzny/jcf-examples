@@ -1,4 +1,4 @@
-package com.queue;
+package com.jcf.queue;
 
 public class MyQueueImpl<T> implements MyQueue<T> {
 
