@@ -1,10 +1,10 @@
 package com.jcf.common;
 
-public class Date implements Comparable<Date> {
+public class DateTest implements Comparable<DateTest> {
 
     private final int month, day, year;
 
-    public Date(int month, int day, int year) {
+    public DateTest(int month, int day, int year) {
 
         this.month = month;
         this.day = day;
@@ -15,7 +15,7 @@ public class Date implements Comparable<Date> {
     }
 
     @Override
-    public int compareTo(Date that) {
+    public int compareTo(DateTest that) {
 
         if (this.month < that.month)
             return -1;
